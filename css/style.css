@@ -6,7 +6,6 @@ body {
     padding: 0;
     font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #4E443C;
-    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);*/
 }
 
 
@@ -18,11 +17,6 @@ body {
 
 
 
-.back{
-  width: 50px;
-  height: 50px;
-  background-color: #555;
-}
 
 /*-------------------------------DropDownMenu---------------------------------------*/
 
@@ -206,7 +200,8 @@ nav li li.dropdown > a {
 
 /*----------------------------------Custom JS checkboxes------------------------------*/
 
-form {
+.js-checkbox,
+.css-checkbox {
   margin: 10px 20px 20px 20px;
   background: #99CCFF;
   padding: 10px;
